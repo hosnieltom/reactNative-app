@@ -1,6 +1,6 @@
 import React, {Component} from "react";
 import { Button, Text, TextInput, View } from "react-native";
-
+// Using class insted of function
 class ToDoList extends Component {
     state = { myList:[] };
     saveInput = (userInput) => {
